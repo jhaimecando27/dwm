@@ -5,10 +5,7 @@
 4. [alternativetags-6.2](https://dwm.suckless.org/patches/alternativetags/)
 5. [fullgaps-20200508-7b77734](https://dwm.suckless.org/patches/fullgaps/)
 6. [systray-20210418-67d76bd](https://dwm.suckless.org/patches/systray/)
-7. [fibonacci-20200418-c82db69](https://dwm.suckless.org/patches/fibonacci/)
-8. [cyclelayouts-20180524-6.2](https://dwm.suckless.org/patches/cyclelayouts/)
-9. [r1615-selfrestart](https://dwm.suckless.org/patches/selfrestart/)
-
+7. [tcl](http://dwm.suckless.org/patches/three-column/)
 
 # Scratch
 
