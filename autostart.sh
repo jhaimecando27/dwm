@@ -10,7 +10,7 @@ function run {
 # Systray
 run "nm-applet"
 run "volumeicon"
-run "pamac-tray"
+run "blueberry-tray"
 run "xfce4-power-manager"
 
 # System
@@ -19,5 +19,5 @@ run "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 dwmstatus &
 
 # Theme
-feh --bg-fill -z ~/Pictures/Wallpapers/arcolinux/* &
-picom -b  --config ~/.config/arco-dwm/picom.conf &
+feh --bg-fill -z ~/Pictures/Wallpapers/manjaro/* &
+# picom -b  --config ~/.config/arco-dwm/picom.conf &
