@@ -15,7 +15,7 @@ dwm is an extremely fast, small, and dynamic window manager for X created by [su
 - Xlib header files
 
 ## Installation 
-- Download or clone the repo and store it at `~/.local/share/` so it can read the autostart file. You can also change the location of the autostart file by changing the value of `localshare[]` at dwm.c file, to be able change the directory of dwm rather than at `~/.local/share/`. Check [doc](https://dwm.suckless.org/patches/autostart/) of autostart patch for more information.
+- Store the repo at `~/.local/src/`, [here's why](https://unix.stackexchange.com/questions/10814/what-is-the-usr-local-src-folder-meant-for).
 ```sh
 git clone https://github.com/jhaimecando27/dwm.git ~/.local/share/dwm
 cd ~/.local/share/dwm/
@@ -23,7 +23,7 @@ sudo make clean install
 ```
 
 ### Running dwm
-This build of dwm will **not** be available in a login manager after installation. Below is the format for `dwm.desktop` that should be located at `/usr/share/xsessions/`:
+By default, dwm will **not** be available in a login manager after installation. Below is the format for `dwm.desktop` that should be located at `/usr/share/xsessions/`:
 ```
 [Desktop Entry]
 Encoding=UTF-8
@@ -40,9 +40,9 @@ exec dwm
 
 ## Recommendation
 You can also install this following app/s that would be helpful.
-- [st](https://dwm.suckless.org/) - check my build of [st](https://github.com/jhaimecando27/st)
+- [st](https://dwm.suckless.org/) - Check my build of [st](https://github.com/jhaimecando27/st)
 - [dmenu](https://tools.suckless.org/dmenu/)
-- [status monitor](http://dwm.suckless.org/status_monitor/) - check my build of [dwmstatus](https://github.com/jhaimecando27/dwmstatus)
+- [status monitor](http://dwm.suckless.org/status_monitor/) - Check my build of [dwmstatus](https://github.com/jhaimecando27/dwmstatus)
 - xfce4-notifyd 
 - polkit-gnome 
 
